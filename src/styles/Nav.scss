@@ -1,0 +1,54 @@
+@import'./colors';
+@import'./mixins';
+@import'./fonts';
+
+.Nav {
+    position:absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+
+
+
+    nav {
+        @include flex-center;
+        justify-content: space-between;
+        height: 4rem;
+        
+
+        .ul-items {
+            list-style: none;
+
+
+            .li-items {
+                display: flex;
+                color: white;
+                
+                a {
+                    text-decoration: none;
+                    color: white;
+                    margin: 0 1rem;
+                    font-size: 15px;
+                    cursor: pointer;
+                    display: flex;
+                flex-direction: column;
+
+                .icons{
+                    margin: 0 auto;
+                    color: white;
+                }
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .logo{
+        text-transform: uppercase;
+        margin-right: 2rem;
+        font-family: $font-roboto;
+        color: white;
+    }
+    
+}

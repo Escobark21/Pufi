@@ -1,0 +1,61 @@
+
+.cardInner {
+    display: flex;
+    flex-wrap: wrap;
+
+    .cardButton {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            position: absolute;
+        }
+        .cardButtona {
+            position: absolute;
+            text-decoration: none;          
+           z-index: 100;
+            color: white;
+            padding: 15px 15px;
+            border: 2px solid white;
+
+        }
+    }
+    .cardContenedor {
+        width: 50%;
+        height: 400px;
+
+        .tarjeta {
+            width: 100%;
+            height: 400px;
+        }
+        .tarjetaText {
+            width:  80px;
+            height: 80px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            letter-spacing: 3px;
+        }
+        .line {
+            height: 2px;
+                     background-color: black;
+          
+            width: 8%;
+        }
+      
+    }
+    .cardText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }
+}
+
+
+
+
+ 
